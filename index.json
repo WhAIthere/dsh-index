@@ -1,0 +1,96 @@
+{
+    "title":  {
+                  "en":  "WhAIthere DSH plugins",
+                  "zh":  "WhAIthere 的 DSH 插件"
+              },
+    "format":  1,
+    "description":  {
+                        "en":  "Personal index: per-turn cost display and native-search usage audit for DeepSeek Harness.",
+                        "zh":  "个人索引：DeepSeek Harness 的按轮花费显示与原生搜索用量审计。"
+                    },
+    "plugins":  [
+                    {
+                        "name":  "dsh-turn-usage",
+                        "repository":  "https://github.com/WhAIthere/dsh-turn-usage",
+                        "description":  {
+                                            "zh":  "按轮显示花费（¥），输入框上方常驻 本轮 / 今日 / 会话 合计；自带 Host 半边，可并入原生搜索费用。",
+                                            "en":  "Per-turn cost in CNY plus 本轮/今日/会话 totals; optional native DeepSeek search spend."
+                                        },
+                        "homepage":  "https://github.com/WhAIthere/dsh-turn-usage",
+                        "metadata":  {
+                                         "labels":  [
+
+                                                    ],
+                                         "category":  "usage",
+                                         "sortKeys":  {
+
+                                                      },
+                                         "keywords":  [
+                                                          "cost",
+                                                          "usage",
+                                                          "token",
+                                                          "dsh-plugin"
+                                                      ]
+                                     },
+                        "versions":  [
+                                         {
+                                             "publishTimestamp":  1793395836,
+                                             "source":  {
+                                                            "type":  "npm"
+                                                        },
+                                             "engines":  {
+
+                                                         },
+                                             "version":  "0.1.0"
+                                         }
+                                     ],
+                        "title":  "dsh-turn-usage"
+                    },
+                    {
+                        "name":  "dsh-search-audit",
+                        "repository":  "https://github.com/WhAIthere/dsh-search-audit",
+                        "description":  {
+                                            "zh":  "只读观察原生 DeepSeek 搜索的模型调用，把 usage 落盘成 JSONL，供统计类插件对账。",
+                                            "en":  "Read-only observer of native DeepSeek search calls; appends usage to JSONL for accounting plugins."
+                                        },
+                        "homepage":  "https://github.com/WhAIthere/dsh-search-audit",
+                        "metadata":  {
+                                         "labels":  [
+
+                                                    ],
+                                         "category":  "usage",
+                                         "sortKeys":  {
+
+                                                      },
+                                         "keywords":  [
+                                                          "search",
+                                                          "observability",
+                                                          "dsh-plugin"
+                                                      ]
+                                     },
+                        "versions":  [
+                                         {
+                                             "publishTimestamp":  1793395836,
+                                             "source":  {
+                                                            "type":  "npm"
+                                                        },
+                                             "engines":  {
+
+                                                         },
+                                             "version":  "0.1.0"
+                                         }
+                                     ],
+                        "title":  "dsh-search-audit"
+                    }
+                ],
+    "metadata":  {
+                     "categories":  {
+                                        "usage":  {
+                                                      "title":  {
+                                                                    "en":  "Usage \u0026 Billing",
+                                                                    "zh":  "用量与计费"
+                                                                }
+                                                  }
+                                    }
+                 }
+}
